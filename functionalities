@@ -1,0 +1,55 @@
+-register
+-login
+-slide show
+-about us
+-contact us
+-search vehicle
+-manage vehicle
+-add vehicle
+	- vehicle_id
+	- vehicle_img
+	- vehicle_type
+	- vheicle_sets
+	- vehicle_plate_no
+	- vehicle_owner_id
+
+- add vehicle owner
+    - owner_id
+    - owner_firstName
+    - owner_lastName;
+    - owner_tazkira_no
+    - owner_pic
+    - owner_tazkira_copy
+    - owner_mob
+    - owner_email
+
+- customer
+	- customer_id
+	- customer_firstName
+	- customer_lastName
+	- customer_mobileNo
+	- customer_email
+	- customer_permenant_address
+	- customer_current_address
+
+
+- operator
+	- operator_id
+	- operator_FirstName
+	- operator_lastName
+	- operator_mob
+	- operator_email
+	- operator_pass
+	- operator_block
+	- operator_online_offline_status
+
+
+- admin
+	- admin_id
+	- admin_FirstName
+	- admin_lastName
+	- admin_mob
+	- admin_email
+	- admin_pass
+	- admin_block
+	- admin _online_offline_status

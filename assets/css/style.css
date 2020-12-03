@@ -1,0 +1,480 @@
+.footer-bg{
+    /* Center and scale the image nicely */
+    background: url("../images/footer-bg.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.custom-green-color {
+	color: #32CD32;
+}
+
+hr.stylish-hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    background-image: linear-gradient(to left, black, #ccc, black);
+}
+
+div.menus-container {
+    padding: 3em 1em .5em 1em;
+
+}
+
+.container-about{
+    background: url(../images/about_us_bg.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #32CD32;
+    color: #ffffff;
+    text-align: center;
+
+}
+
+.subcontainer-about{
+    margin-right: 1em;
+    width:70%;
+    padding:10px 20px;
+    margin:1em 0% 1em 30%;
+    text-align:center;
+    border-top-right-radius:2em;
+    border-top-left-radius:2em;
+    color: green;
+}
+
+.container-book-ticket{
+    background-color: rgb(34,177,76);
+}
+
+.subcontainer-book-ticket{
+    margin-right: 1em;
+    width:90%;
+    padding:10px 20px 9 10px;
+    margin:1em 5% 0 5%;
+    border-top-right-radius:2em;
+    border-top-left-radius:2em;
+}
+
+ .ticket-search-btn{
+    background-color: darkgreen ;
+    border: .4em solid darkgreen;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.ticket-search-btn:hover{
+    color: #ffffff;
+    background-color: #228B22;
+        border: .4em solid #228B22; */
+
+ }
+.container-feedback{
+    background: url(../images/feedback_bg.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: green;
+    width: 100%;
+    margin: auto;
+}
+
+ .subcontainer-feedback{
+    width:75%;
+    margin:0 12.5%;
+    text-align:center;
+    padding-top: 1.5em;
+}
+
+.container-quick-ticket-book {
+    padding: 1em;
+    background: url(../images/bus_cover_contact_us.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #434343;
+    text-align: center;
+}
+
+.quick-ticket-book{
+    background-color: transparent;
+}
+
+
+
+
+/* Flaired edges, by Tomas Theunissen */
+hr.stylish-hr-2 {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: darkgreen;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.stylish-hr-2:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: darkgreen;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+hr.stylish-hr-3 {
+    border: 0;
+    height: 1px;
+    background: green;
+    background-image: linear-gradient(to right, #ccc, green, #ccc);
+}
+
+/* Back to top button */
+/* link to top style */
+#backToTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: green;
+  color: #fff;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  transition: .5s;
+  animation-timing-function: ease-in;
+}
+
+#backToTop:hover {
+  background-color: darkgreen;
+  color: whitesmoke;
+  transition: .7s;
+  animation-timing-function: ease-in;
+}
+.divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;
+    z-index: 2;
+}
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+
+.btn-facebook {
+    background-color: #405D9D;
+    color: #fff;
+}
+.btn-twitter {
+    background-color: #42AEEC;
+    color: #fff;
+}
+
+.borderstyle{
+  border: none !important;
+}
+/* ---- end of reg and login style ----- */
+
+/* registration and login form validation style */
+span.frm-validation-err-tooltip {
+  background-color: darkred;
+  color: whitesmoke;
+  position: absolute;
+  font-size: 0.8em;
+  display: block;
+  width: auto;
+  text-align: center;
+  border-radius: 6px;
+  padding: 3px 6px;
+  z-index: 1;
+  top: -2em;
+}
+
+span.frm-validation-err-tooltip::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  border-width: 5px;
+  border-style: solid;
+  border-color: darkred transparent transparent transparent;
+}
+/* end of form validation style */
+
+/* ticket search style */
+
+.ticket-container {
+  background-color: #404040;
+}
+
+.item-members-head-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1%;
+}
+
+.shadow {
+  color: #fff;
+  font-family: Arvo;
+  font-weight: bold;
+  text-shadow:
+    -3px -3px 0 #222,
+    3px -3px 0 #222,
+    -3px 3px 0 #222,
+    3px 3px 0 #222,
+    4px 4px 0 #fff,
+    5px 5px 0 #fff,
+    6px 6px 0 #fff,
+    7px 7px 0 #fff;
+  line-height: 0.8em;
+  letter-spacing: 0.1em;
+  transform: scaleY(0.7);
+  -webkit-transform: scaleY(0.7);
+  -moz-transform: scaleY(0.7);
+  margin: 0;
+  text-align: center;
+}
+
+.item-members-head-text {
+  font-size: 60px;
+  line-height: 1;
+}
+
+.tickets:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.tickets {
+  width: 100%;
+  margin: auto !important;
+  text-align: center;
+  border-bottom: 0.3em solid whitesmoke;
+  padding-bottom: .8em;
+}
+
+.ticket {
+  padding: 0;
+  float: left;
+  width: 24%;
+  margin: 0.5%;
+  text-align: center;
+  border: 1px solid darkgreen;
+  box-shadow: 0px 0px 15px 10px green;
+}
+
+.item-members-name {
+  width: 100%;
+  background-color: gray;
+  height: 50px;
+  margin: 0 !important;
+  color: whitesmoke;
+  text-align: center;
+  padding-top: 0.7em;
+  font-style: bold;
+}
+
+.item-members-name:hover {
+  color: white;
+  font-style: bold;
+}
+
+
+.vehicle-img a:hover {
+  text-decoration: none;
+}
+
+/* ----big landscape tablets, laptops, and desktops---- */
+  /* 1050px */
+@media only screen and (max-width: 65.6em) {
+  #dl-app {
+    margin-left: 20px;
+  }
+
+  #about-us-menu {
+    margin-left: 20px;
+  }
+
+  .topHeader-menus-container span a {
+    padding: 0 4px;
+  }
+
+  .ticket {
+    width: 32%;
+  }
+
+  .item-members-head-text {
+    font-size: 50px;
+  }
+
+  .account-container {
+    margin-left: 0;
+  }
+
+  ul.navbar-nav li a {
+    margin: 0 .1em;
+  }
+}
+  /*1000px */
+@media only screen and (max-width: 62.5em) {
+  .search-input {
+    width: 130px !important;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: .7em;
+  }
+}
+
+/*1090px */
+@media only screen and (max-width: 61.875em) {
+  #topnav {
+    font-size: .7em;
+  }
+
+  #online-bazar-logo {
+    margin-left: 0;
+  }
+
+  .newproducts {
+    border-right: none;
+  }
+
+  .search-input {
+    display: block;
+    width: 60% !important;
+  }
+
+  .navbar-nav .nav-link {
+    width: 65%;
+    padding-left: 2%;
+    margin: .5%;
+    margin-left: 0 !important;
+  }
+
+  .dropdown-menu li {
+    width: 50%;
+    border-bottom: 1px solid #444;
+  }
+
+  .category_menus {
+    display: none;
+  }
+
+  .dropdown-menu {
+    width: 65% !important;
+    padding: 2px;
+  }
+
+  .mob_tablet_category {
+    display: block;
+    width: 100% !important;
+    margin-bottom: 0.3em;
+    padding: .1em;
+  }
+
+  .mob_tablet_category a {
+    text-decoration: none;
+    color: #CCC;
+    font-size: .8em;
+    padding-left: .6em;
+    margin-left: 1.3em !important;
+  }
+
+  .mob_tablet_category:hover {
+    background-color: #444;
+  }
+
+  .mob_tablet_category a:hover {
+    color: whitesmoke;
+  }
+
+  .dropdown-menu a {
+    font-size: .8em;
+    text-decoration: none;
+    margin-bottom: : .3em;
+    padding-bottom: .3em;
+    width: 100% !important;
+  }
+
+  .dropdown-menu a.dropdown-item {
+    margin-bottom: .5em;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: .8em;
+  }
+}
+
+  /* 800px */
+@media only screen and (max-width: 50em) {
+  .topHeader-menus-container {
+    display: none;
+  }
+
+  .item-members-head-text {
+    font-size: 40px;
+  }
+
+  .ticket {
+    width: 48%;
+    margin: 1%;
+  }
+
+  .shadow {
+    text-shadow:
+      -2px -2px 0 #222,
+      2px -2px 0 #222,
+      -2px 2px 0 #222,
+      2px 2px 0 #222,
+      3px 3px 0 #fff,
+      4px 4px 0 #fff,
+      5px 5px 0 #fff,
+      5px 5px 0 #fff;
+  }
+}
+
+  /* 500px */
+@media only screen and (max-width:31.25em) {
+  .ticket {
+    width: 95%;
+    margin: 2%;
+  }
+
+  .item-members-head-text {
+    font-size: 30px;
+  }
+
+  .search-input {
+    display: block;
+    width: 80% !important;
+  }
+}
+
+/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  /* 320px */
+@media only screen and (max-width: 20em) {
+  #donation {
+    display: none;
+  }
+}

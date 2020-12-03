@@ -1,0 +1,53 @@
+.item{
+  text-align: center;
+}
+.card{
+  margin: auto;
+  opacity: .8;
+  transition: .5s;
+}
+
+/* .card::after{
+  content: "\f217";
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  font-family: 'Font Awesome\ 5 Free';
+  font-size: 25px;
+  color: red;
+  transition: .5s;
+  opacity: .5;
+  font-weight: 900;
+} */
+
+.card:hover{
+  opacity: 1;
+}
+
+/* ----------------------*/
+.owl-prev,
+.owl-next {
+  text-align: center !important;
+  color: #fff !important;
+  background-color: darkgreen !important;
+  border: .3em solid darkgreen !important;
+  border-radius: 3px !important;
+  font-size: 1.5em !important;
+  position: absolute;
+  opacity: .5;
+  transition: .5s;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+.owl-prev:hover,
+.owl-next:hover{
+  opacity: 1;
+}
+.owl-prev {
+  left: -2rem;
+}
+
+.owl-next {
+  right: -2rem;
+}

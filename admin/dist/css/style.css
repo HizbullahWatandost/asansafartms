@@ -1,0 +1,30 @@
+/* registration and login form validation style */
+span.frm-validation-err-tooltip {
+  background-color: darkred;
+  color: whitesmoke;
+  position: absolute;
+  font-size: 0.8em;
+  display: block;
+  width: auto;
+  text-align: center;
+  border-radius: 6px;
+  padding: 3px 6px;
+  z-index: 1;
+  top: -2em;
+}
+
+span.frm-validation-err-tooltip::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  border-width: 5px;
+  border-style: solid;
+  border-color: darkred transparent transparent transparent;
+}
+/* end of form validation style */
+
+/* datatable row color when it is clicked */
+.activeRow{
+  background-color: #ccc !important;
+}

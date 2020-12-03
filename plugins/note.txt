@@ -1,0 +1,4 @@
+grid file is used for layout responsiveness
+.map files are used for Sass, Less or Styles.
+for preprocessors that support CSS source maps.
+reboot is used to reset default CSS styles.
