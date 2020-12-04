@@ -45,7 +45,7 @@ $pdf->SetTitle('Ticket Booking');
 $pdf->SetKeywords('AsanSafar, Transportation Management System, Afghanistan, Kabul, Booking, Travel');
 
 // set default header data
-$pdf->SetHeaderData(PDF_HEADER_LOGO, PDF_HEADER_LOGO_WIDTH, 'Online Ticket Booking', 'AsanSafar, nKabul-Afghanistan');
+$pdf->SetHeaderData(PDF_HEADER_LOGO, PDF_HEADER_LOGO_WIDTH, 'Online Ticket Booking', 'AsanSafar, Kabul-Afghanistan');
 
 // set header and footer fonts
 $pdf->setHeaderFont(Array(PDF_FONT_NAME_MAIN, '', PDF_FONT_SIZE_MAIN));

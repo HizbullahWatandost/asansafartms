@@ -165,7 +165,7 @@ if(isset($_POST['ticketSend'])){
      //$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
      if(!$mail->send()) {
-         $_SESSION['ticketSentMsg'] = "The ticket could not be sent to client-> "+$mail->ErrorInfo;
+         $_SESSION['ticketSentMsg'] = "The ticket could not be sent to client ->".$mail->ErrorInfo;
          $_SESSION['type'] = 'error';
      } else {
          $_SESSION['ticketSentMsg'] = "The ticket has been sent to your email successfully";

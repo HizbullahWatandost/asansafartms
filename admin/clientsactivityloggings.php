@@ -55,7 +55,7 @@ if(!isset($_SESSION['adminId'])){
                             while($log = $database->fetch_array($getClientsLog)) { ?>
                               <tr>
                                 <td><?php echo $no++; ?></td>
-                                <td><?php echo $log['userName|ID']; ?></td>
+                                <td><?php echo $log['userName']; ?></td>
                                 <td><?php echo $log['userType']; ?></td>
                                 <td><?php echo $log['activityType']; ?></td>
                                 <td><?php echo $log['logMsg']; ?></td>
